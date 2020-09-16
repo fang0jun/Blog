@@ -3,15 +3,13 @@
     <img width="160" heigth="160" src="https://img-blog.csdnimg.cn/20200917011950275.png">
   </a>  
 
-  <h1>xmake</h1>
+  <h1>fang 0 jun</h1>
 
 </div>
 
-## Supporting the project
 
-If you like my blog or my blog is helpful to you, please give me a star🙏
 
-## Introduction ([中文](/README_zh.md))
+## Introduction
 
 This is my github blog, I will learn and record here
 My blog is also updated in these places：
@@ -23,16 +21,12 @@ My blog is also updated in these places：
     <img width="320" heigth="320" src="https://img-blog.csdnimg.cn/2020091701273449.jpg?#pic_center">
   </a>  
 
-  <h1>xmake</h1>
 </div>
 
 
+## Supporting the project
 
-
-## Project Examples
-
-Some projects using xmake:
-
+If you like my blog or my blog is helpful to you, please give me a star🙏
 
 
 ## Contacts
