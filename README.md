@@ -58,10 +58,14 @@ This is my github blog, I will learn and record here
 My blog is also updated in these places：
 * [CSDN](https://blog.csdn.net/a13352912632)
 * [personal blog](fang0jun.github.io/)
-* [Wechat]()
-<a href="https://xmake.io">
-    <img width="160" heigth="160" src="https://img-blog.csdnimg.cn/2020091701273449.jpg">
+* Wechat Public: ThunderCat_Allor
+<div align="center">
+  <a>
+    <img width="320" heigth="320" src="https://img-blog.csdnimg.cn/2020091701273449.jpg">
   </a>  
+
+  <h1>xmake</h1>
+<div>
 
 
 
@@ -74,10 +78,5 @@ Some projects using xmake:
 
 ## Contacts
 
-* Email：[waruqi@gmail.com](mailto:waruqi@gmail.com)
-* Homepage：[tboox.org](https://tboox.org)
-* Community：[/r/xmake on reddit](https://www.reddit.com/r/xmake/)
-* ChatRoom：[Char on telegram](https://t.me/tbooxorg), [Chat on gitter](https://gitter.im/xmake-io/xmake?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-* Source Code：[Github](https://github.com/xmake-io/xmake), [Gitee](https://gitee.com/tboox/xmake)
-* QQ Group: 343118190(Technical Support), 662147501
-* Wechat Public: tboox-os
+* Email：[fang0jun@qq.com](fang0jun@qq.com)
+* Wechat Public: ThunderCat_Allor
