@@ -1,5 +1,7 @@
- <h1>前往[issues](https://github.com/fang0jun/Blog/issues)查看博客</h1>
- <h1>Go to [issues](https://github.com/fang0jun/Blog/issues)to view the blog</h1>
+<p style="text-align:center">我是文本，居中显示</p>
+ 
+<p> 前往 [Issues](https://github.com/fang0jun/Blog/issues) 查看博客 / Go to [Issues](https://github.com/fang0jun/Blog/issues)to view the blog </p>
+
 
 <div align="center">
   <a href="https://xmake.io">
