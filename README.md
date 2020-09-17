@@ -1,3 +1,6 @@
+ <h1>前往[issues](https://github.com/fang0jun/Blog/issues)查看博客</h1>
+ <h1>Go to [issues](https://github.com/fang0jun/Blog/issues)to view the blog</h1>
+
 <div align="center">
   <a href="https://xmake.io">
     <img width="111" heigth="160" src="https://img-blog.csdnimg.cn/20200917015647827.png">
