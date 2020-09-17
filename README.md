@@ -7,11 +7,11 @@
 </div>
 
 ## Introduction
-|| Go to [Issues](https://github.com/fang0jun/Blog/issues) to view the blog</font> / <font color="#eeff00">前往 [Issues](https://github.com/fang0jun/Blog/issues) 查看博客
+Go to [Issues](https://github.com/fang0jun/Blog/issues) to view the blog</font> / <font color="#eeff00">前往 [Issues](https://github.com/fang0jun/Blog/issues) 查看博客
   
-|| This is my github blog, I will learn and record here
+This is my github blog, I will learn and record here
 
-|| If you like my blog or my blog is helpful to you, please give me a star :)
+If you like my blog or my blog is helpful to you, please give me a star :)
 
 Moreover, My blog is also updated in these places：
 * [CSDN](https://blog.csdn.net/a13352912632)
