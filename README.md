@@ -1,7 +1,4 @@
-<p style="text-align:center">我是文本，居中显示</p>
- 
-<p> 前往 [Issues](https://github.com/fang0jun/Blog/issues) 查看博客 / Go to [Issues](https://github.com/fang0jun/Blog/issues)to view the blog </p>
-
+* <font color="#eeff00">前往 [Issues](https://github.com/fang0jun/Blog/issues) 查看博客 / Go to [Issues](https://github.com/fang0jun/Blog/issues) to view the blog</font>
 
 <div align="center">
   <a href="https://xmake.io">
@@ -29,4 +26,4 @@ Moreover, My blog is also updated in these places：
 ## Contacts
 
 * Email：[fang0jun@qq.com](fang0jun@qq.com)
-* Wechat Public: ThunderCat_Allor
+* Wechat Public: ThunderCat_Allo
