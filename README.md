@@ -1,5 +1,3 @@
-|| Go to [Issues](https://github.com/fang0jun/Blog/issues) to view the blog</font> / <font color="#eeff00">前往 [Issues](https://github.com/fang0jun/Blog/issues) 查看博客 
-
 <div align="center">
   <a href="https://xmake.io">
     <img width="111" heigth="160" src="https://img-blog.csdnimg.cn/20200917015647827.png">
@@ -8,7 +6,7 @@
 
 </div>
 
-## Introduction
+## Introduction  --->   Go to [Issues](https://github.com/fang0jun/Blog/issues) to view the blog</font> / <font color="#eeff00">前往 [Issues](https://github.com/fang0jun/Blog/issues) 查看博客 
 This is my github blog, I will learn and record here
 
 If you like my blog or my blog is helpful to you, please give me a star :)
