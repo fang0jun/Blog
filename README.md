@@ -1,4 +1,4 @@
-* <font color="#eeff00">前往 [Issues](https://github.com/fang0jun/Blog/issues) 查看博客 / Go to [Issues](https://github.com/fang0jun/Blog/issues) to view the blog</font>
+|| Go to [Issues](https://github.com/fang0jun/Blog/issues) to view the blog</font> / <font color="#eeff00">前往 [Issues](https://github.com/fang0jun/Blog/issues) 查看博客 
 
 <div align="center">
   <a href="https://xmake.io">
