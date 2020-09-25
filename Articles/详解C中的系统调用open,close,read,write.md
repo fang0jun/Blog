@@ -1,5 +1,4 @@
 
-
 - [fopen()](#fopen)
 - [fputc() 和 fgetc()](#fputc-和-fgetc)
 - [fgets()](#fgets)
@@ -7,6 +6,28 @@
 - [fread()和fwrite()](#fread和fwrite)
 - [读写函数的区别](#读写函数的区别)
 - [详解EOF](#详解eof)
+
+------
+
+先谈谈open/close/read/write与fopen/fclose/fread/fwrite的区别
+- open/close/read/write是低级IO, 是系统调用函数
+- fopen/fclose/fread/fwrite是高级IO，是标准库中的函数
+
+后者由前者实现：例如getchar()
+
+```c
+int getchar (void){  
+	char c;
+	return ( read (0, &c, 1) == 1) ? (int)c : EOF);
+}
+```
+
+附图：对应的一些特殊文字描述符![在这里插入图片描述](https://img-blog.csdnimg.cn/20200923123024960.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2ExMzM1MjkxMjYzMg==,size_16,color_FFFFFF,t_70#pic_center)
+
+<br/><br/>
+
+
+
 
 || FILE 是系统定义的一个类型，其中包含由文件的各种信息，如文件名，文件地址
 || 我们一般使用FILE *fp —— 一个文件指针来操作文件
@@ -83,6 +104,7 @@ int main(){
 
 <br/>
 
+<<<<<<< HEAD
 || **fputc()**: fputtc 是 file output char 的缩写，意思是 **从缓存区读取一个字符到指定的文件中** 。
 经常配合使用getchar()  **从键盘中读取一个字符到缓存区**
 >它的语法为：`int fputc ( int ch, FILE *fp );`
@@ -116,6 +138,25 @@ int main(){
 >==   fgetc() / fputc()默认包含移动一个位置指针的功能==
 >在文件内部有一个位置指针，用来指向当前读写到的位置，也就是读写到第几个字节。在文件打开时，该指针总是指向文件的第一个字节。使用 fgetc() 函数后，该指针会向后移动一个字节，所以可以连续多次使用 fgetc() 读取多个字符。
 
+=======
+-  第三个参数mode权限设置：
+**该参数只有在建立新文件时才会生效，即当flag为O_CREAT时使用mode设置**
+
+	| 指令 | 说明 |
+	|--|--|
+	| S_IRWXU00700 权限| 代表该文件所有者具有可读、可写及可执行的权限.
+	| S_IRUSR 或S_IREAD00400 权限| 代表该文件所有者具有可读取的权限.
+	| S_IWUSR 或S_IWRITE, 00200 权限|代表该文件所有者具有可写入的权限.
+	| S_IXUSR 或S_IEXEC, 00100 权限| 代表该文件所有者具有可执行的权限.
+	| S_IRWXG 00070 权限|代表该文件用户组具有可读、可写及可执行的权限.
+	| S_IRGRP 00040 权限| 代表该文件用户组具有可读的权限.
+	| S_IWGRP 00020 权限| 代表该文件用户组具有可写入的权限.
+	| S_IXGRP 00010 权限| 代表该文件用户组具有可执行的权限.
+	| S_IRWXO 00007 权限| 代表其他用户具有可读、可写及可执行的权限.
+	| S_IROTH 00004 权限| 代表其他用户具有可读的权限
+	| S_IWOTH 00002 权限| 代表其他用户具有可写入的权限.
+	| S_IXOTH 00001 权限| 代表其他用户具有可执行的权限.
+>>>>>>> bc07df29a1ea62646c06b0fdbc0cf32995bde10a
 
 
 
