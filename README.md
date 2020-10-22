@@ -26,4 +26,4 @@ Moreover, My blog is also updated in these places：
 ## Contacts
 
 * Email：[fang0jun@qq.com](fang0jun@qq.com)
-* Wechat Public: ThunderCat_Allo  :)
+* Wechat Public: ThunderCat_Allo
