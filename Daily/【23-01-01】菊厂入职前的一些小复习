@@ -1,0 +1,60 @@
+
+# 目录
+-[总结](#总结)
+  -[day1 day2 day3 day4](#day1 day2 day3 day4)
+  -[day5](#day5)
+-[知识点](#知识点)
+
+
+# 总结
+
+## Day1 Day2 Day3 Day4
+
+- 做计划，找资源：
+1、代码实操：acwing和leetcode日常刷题
+2、看书：《Head First设计模式》，《通信原理》樊昌信
+3、语言复习：C重看文件和指针部分，c++prime再过一遍，捡一捡git和linux
+4、补课职场知识：b站相关职场技巧
+## Day5
+- 科目一做完驾考宝典交通信号篇
+- 看完linux常用命令
+- leetcode 18，19，160
+- 开始看
+
+
+# 知识点
+linux：
+
+	特殊路径符：. 当前目录 / .. 上一级目录 / ~ 家目录
+	ls -a -l
+	cd: change directory 
+	pwd: print work directory
+	mkdir: 创建文件夹
+	touch: 创建文件
+	cat： 查看文件
+	cp: copy 复制文件  、 cp -r 复制文件夹
+	mv: move 移动文件/文件夹
+	rm: remove 删除文件 、rm -r 删除文件夹   tip：可加无限文件参数， 可用通配符*模糊匹配
+	find: 在参数路径为起始(按名称或大小)搜索文件； find / -name test.txt  或 find / -size +1M(大于1M)
+=======
+	
+	grep: 通过关键字在文件中查找文件行 eg: grep qiang test.txt
+	wc: 文件统计  -c bytes数量统计 / -c 字符数量统计 / -l 行数统计 / -w 单词数量统计
+	| ：管道符，将左边的输出作为右边的输入
+	
+	tip 搭配使用：cat test.txt | grep shuai  ; cat  test.txt | wc ; ls | grep txt
+	
+=======
+
+	echo: 纯粹输入内容到屏幕上(print)；  echo HelloWorld!
+	反引号`:  其包围的内容作为命令执行； echo `pwd`
+	重定向符 >: 将左边的输出，覆盖写到右边;
+	重定向符 >>: 将左边的输出，追加写到右边;    echo HelloWorld! >> test.txt 
+
+=======
+
+	groupadd/groupdel ： 增删用户组
+	useradd/userdel : 增删用户
+	id/usemod : 查看/修改用户所在用户组
+
+	
